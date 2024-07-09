@@ -1,17 +1,18 @@
-# create-svelte
+# My Dev Blog
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+<!-- 📹 Youtube Video Pt 1: [Building A Dev Blog With Neovim, SvelteKit, TS & Tailwindcss](https://youtu.be/cxNDZHwln1w) -->
 
-## Creating a project
+This repo is very similar to my live production blog found here: [jace.com.co](https://jace.com.co)
 
-If you're seeing this, you've probably already done this step. Congrats!
+# Running this locally
+
+Clone the repo first and navigate to the `sveltekit-blog-walkthrough` directory.
+
+Make sure you nave node (tested with v18.17.1) and npm (tested with 10.0.0) installed.
 
 ```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
+# Install the dependencies
+npm install
 ```
 
 ## Developing
