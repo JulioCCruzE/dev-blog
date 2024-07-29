@@ -8,7 +8,8 @@ summary: 'Software requirements for Third School of Quantum Computing'
 
 <!-- # Qiskit and Anaconda -->
 
-Software requirements for Third School of Quantum Computing
+Software requirements for Third School of Quantum Computing.
+You can see the oficcial page at https://computo-cuantico.unam.mx/
 
 ## Install Anaconda or miniconda
 
