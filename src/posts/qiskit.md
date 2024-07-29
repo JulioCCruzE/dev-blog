@@ -74,6 +74,7 @@ Install package
 
 ```bash
 pip install qiskit
+pip install 'qiskit[visualization]'
 pip install matplotlib
 pip install qiskit_ibm_runtime
 pip install pylatexenc
