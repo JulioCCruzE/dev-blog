@@ -47,6 +47,11 @@
 		<div
 			class="text-lg border-b-2 border-b-black dark:border-b-white hover:bg-gray-100 dark:hover:bg-gray-800"
 		>
+			<a href="/quantum" on:click={resetClick}>Quantum</a>
+		</div>
+		<div
+			class="text-lg border-b-2 border-b-black dark:border-b-white hover:bg-gray-100 dark:hover:bg-gray-800"
+		>
 			<a href="/robotics" on:click={resetClick}>Robotics</a>
 		</div>
 		<div

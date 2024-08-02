@@ -22,6 +22,7 @@
 </button>
 <aside class="bg-white dark:bg-dark-background" class:clicked>
 	<a class="p-2 border-b dark:border-gray-800" href="/oac" on:click={resetClick}>OAC</a>
+	<a class="p-2 border-b dark:border-gray-800" href="/quantum" on:click={resetClick}>Quantum</a>
 	<a class="p-2 border-b dark:border-gray-800" href="/robotics" on:click={resetClick}>Robotics</a>
 	<a class="p-2 border-b dark:border-gray-800" href="/publications" on:click={resetClick}
 		>Publications</a
