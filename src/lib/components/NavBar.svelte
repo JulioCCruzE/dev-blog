@@ -9,12 +9,15 @@
 	import MenuButton from './MenuButton.svelte';
 	// import PostListing from './PostListing.svelte';
 
-	let innerWidth = 1025;
+	let innerWidth = 0;
 	let clicked = false;
-	// let mobile = false;
+	// $mobile = true;
 
+	// console.log(innerWidth);
 	if (browser) {
 		innerWidth = window.innerWidth;
+		// console.log(innerWidth);
+		$mobile = innerWidth >= 1024 ? false : true;
 	}
 
 	// $darkmode = true;
