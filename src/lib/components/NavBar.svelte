@@ -40,7 +40,12 @@
 
 <svelte:window bind:innerWidth on:resize={handleResize} on:load={handleResize} />
 <nav class="navbar">
-	<a href="/"> <MotherboardIcon class="w-14 h-14 fill-current" on:click={resetClick} /> </a>
+	<a href="/">
+		<MotherboardIcon
+			class="w-14 h-14 fill-current rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800"
+			on:click={resetClick}
+		/>
+	</a>
 	{#if !$mobile}
 		<div
 			class="text-lg border-b-2 border-b-black dark:border-b-white hover:bg-gray-100 dark:hover:bg-gray-800"
