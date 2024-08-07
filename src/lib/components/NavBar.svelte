@@ -17,13 +17,14 @@
 	if (browser) {
 		innerWidth = window.innerWidth;
 		// console.log(innerWidth);
-		$mobile = innerWidth >= 1024 ? false : true;
+		$mobile = innerWidth <= 1024 ? true : false;
 	}
 
 	// $darkmode = true;
 	function handleResize() {
 		innerWidth = window.innerWidth;
-		$mobile = innerWidth >= 1024 ? false : true;
+		$mobile = innerWidth <= 1024 ? true : false;
+		// console.log($mobile);
 	}
 
 	// const handleClick = () => {
