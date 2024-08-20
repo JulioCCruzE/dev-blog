@@ -23,10 +23,13 @@
 		"eslint-config-prettier": "^9.1.0",
 		"eslint-plugin-svelte": "^2.36.0",
 		"globals": "^15.0.0",
+		"katex": "^0.16.11",
 		"mdsvex": "^0.11.2",
 		"postcss": "^8.4.38",
 		"prettier": "^3.1.1",
 		"prettier-plugin-svelte": "^3.1.2",
+		"rehype-katex": "^5.0.0",
+		"remark-math": "^2.0.1",
 		"svelte": "^4.2.7",
 		"svelte-check": "^3.6.0",
 		"tailwindcss": "^3.4.4",
@@ -34,6 +37,7 @@
 		"typescript": "^5.0.0",
 		"typescript-eslint": "^8.0.0-alpha.20",
 		"typescript-svelte-plugin": "^0.3.39",
+		"unist-util-visit": "^2.0.3",
 		"vite": "^5.0.3"
 	},
 	"type": "module"
