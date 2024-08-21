@@ -3,9 +3,9 @@ import rehype_katex from 'rehype-katex';
 import katex from 'katex';
 import visit from 'unist-util-visit';
 
-const correct_hast_tree = () => {
+const correct_hast_tree = () => (tree) => {
 	visit(tree, 'text', (node) => {
-		if (node.value.trim().startWith('<')) {
+		if (node.value.trim().startsWith('<')) {
 			node.type = 'raw';
 		}
 	});
