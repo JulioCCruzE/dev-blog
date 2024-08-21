@@ -21,21 +21,39 @@ Poseé la cualidad que le permite estar en un estado o en ambos al mismo tiempo.
 Estado con cero:
 
 ```math
-|0 \rangle = \biggl[ \begin{matrix} 1 \\ 0 \end{matrix} \biggr]
+|0 \rangle = \begin{bmatrix} 1 \\ 0 \end{bmatrix}
 ```
 
 Estado con uno:
 
 ```math
-|1 \rangle = \biggl[ \begin{matrix} 0 \\ 1 \end{matrix} \biggr]
+|1 \rangle = \begin{bmatrix} 0 \\ 1 \end{bmatrix}
 ```
 
 Estado de superposición:
 
 ```math
-|\psi \rangle = C_0 \biggl[ \begin{matrix} 1 \\ 0 \end{matrix} \biggr]
-+ C_1 \biggl[ \begin{matrix} 0 \\ 1 \end{matrix} \biggr]
-= \biggl[ \begin{matrix} C_0 \\ C_1 \end{matrix} \biggr]
+|\psi \rangle = C_0 \begin{bmatrix} 1 \\ 0 \end{bmatrix}
++ C_1 \begin{bmatrix} 0 \\ 1 \end{bmatrix}
+= \begin{bmatrix} C_0 \\ C_1 \end{bmatrix}
+```
+
+## Postulados de la mecánica cuántica
+
+Toda la informacón del qubit esta contenida en un objeto matemático llamado "Vector de estado",
+denotado por $|\psi \rangle$:
+
+```math
+|\psi \rangle  = \begin{bmatrix} C_0 \\ C_1 \end{bmatrix}
+\begin{matrix} |0 \rangle \\ |1 \rangle \end{matrix}
+\Leftarrow
+\begin{matrix} vector \\ columna \end{matrix}
+```
+
+Donde $C_0$ y $C_1$ pertenecen a los números complejos:
+
+```math
+C_0, C_1 \in \mathbb{C}
 ```
 
 <!--   L = \frac{1}{2} \rho v^2 S C_L -->
